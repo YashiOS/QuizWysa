@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1AC8E1EB2AFEE01A00DA1E90 /* FinishedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC8E1EA2AFEE01A00DA1E90 /* FinishedView.swift */; };
+		1AC8E1ED2AFEE2D900DA1E90 /* Thankyou.json in Resources */ = {isa = PBXBuildFile; fileRef = 1AC8E1EC2AFEE2D900DA1E90 /* Thankyou.json */; };
 		1AEF0D692AFEBC38004B1901 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEF0D682AFEBC38004B1901 /* AppDelegate.swift */; };
 		1AEF0D6B2AFEBC38004B1901 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEF0D6A2AFEBC38004B1901 /* SceneDelegate.swift */; };
 		1AEF0D6D2AFEBC38004B1901 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEF0D6C2AFEBC38004B1901 /* ViewController.swift */; };
 		1AEF0D702AFEBC38004B1901 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AEF0D6E2AFEBC38004B1901 /* Main.storyboard */; };
 		1AEF0D722AFEBC39004B1901 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AEF0D712AFEBC39004B1901 /* Assets.xcassets */; };
 		1AEF0D752AFEBC39004B1901 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AEF0D732AFEBC39004B1901 /* LaunchScreen.storyboard */; };
+		1AEF0D7D2AFEC4F3004B1901 /* QuestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEF0D7C2AFEC4F3004B1901 /* QuestionsView.swift */; };
+		1AEF0D802AFEC627004B1901 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 1AEF0D7F2AFEC627004B1901 /* Lottie */; };
+		1AEF0D862AFEC99B004B1901 /* Welcome.json in Resources */ = {isa = PBXBuildFile; fileRef = 1AEF0D852AFEC99B004B1901 /* Welcome.json */; };
+		1AEF0D882AFECE08004B1901 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEF0D872AFECE08004B1901 /* Result.swift */; };
+		1AEF0D8A2AFECE0C004B1901 /* QuizResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEF0D892AFECE0C004B1901 /* QuizResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1AC8E1EA2AFEE01A00DA1E90 /* FinishedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishedView.swift; sourceTree = "<group>"; };
+		1AC8E1EC2AFEE2D900DA1E90 /* Thankyou.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Thankyou.json; sourceTree = "<group>"; };
 		1AEF0D652AFEBC38004B1901 /* QuizWysa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizWysa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AEF0D682AFEBC38004B1901 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1AEF0D6A2AFEBC38004B1901 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +33,10 @@
 		1AEF0D712AFEBC39004B1901 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AEF0D742AFEBC39004B1901 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AEF0D762AFEBC39004B1901 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AEF0D7C2AFEC4F3004B1901 /* QuestionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsView.swift; sourceTree = "<group>"; };
+		1AEF0D852AFEC99B004B1901 /* Welcome.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Welcome.json; path = ../../../../Downloads/Welcome.json; sourceTree = "<group>"; };
+		1AEF0D872AFECE08004B1901 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		1AEF0D892AFECE0C004B1901 /* QuizResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AEF0D802AFEC627004B1901 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +76,13 @@
 				1AEF0D6E2AFEBC38004B1901 /* Main.storyboard */,
 				1AEF0D712AFEBC39004B1901 /* Assets.xcassets */,
 				1AEF0D732AFEBC39004B1901 /* LaunchScreen.storyboard */,
+				1AEF0D852AFEC99B004B1901 /* Welcome.json */,
+				1AEF0D872AFECE08004B1901 /* Result.swift */,
+				1AEF0D892AFECE0C004B1901 /* QuizResponse.swift */,
 				1AEF0D762AFEBC39004B1901 /* Info.plist */,
+				1AC8E1EC2AFEE2D900DA1E90 /* Thankyou.json */,
+				1AEF0D7C2AFEC4F3004B1901 /* QuestionsView.swift */,
+				1AC8E1EA2AFEE01A00DA1E90 /* FinishedView.swift */,
 			);
 			path = QuizWysa;
 			sourceTree = "<group>";
@@ -83,6 +103,9 @@
 			dependencies = (
 			);
 			name = QuizWysa;
+			packageProductDependencies = (
+				1AEF0D7F2AFEC627004B1901 /* Lottie */,
+			);
 			productName = QuizWysa;
 			productReference = 1AEF0D652AFEBC38004B1901 /* QuizWysa.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +134,9 @@
 				Base,
 			);
 			mainGroup = 1AEF0D5C2AFEBC37004B1901;
+			packageReferences = (
+				1AEF0D7E2AFEC627004B1901 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 1AEF0D662AFEBC38004B1901 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +151,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AC8E1ED2AFEE2D900DA1E90 /* Thankyou.json in Resources */,
+				1AEF0D862AFEC99B004B1901 /* Welcome.json in Resources */,
 				1AEF0D752AFEBC39004B1901 /* LaunchScreen.storyboard in Resources */,
 				1AEF0D722AFEBC39004B1901 /* Assets.xcassets in Resources */,
 				1AEF0D702AFEBC38004B1901 /* Main.storyboard in Resources */,
@@ -138,6 +166,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AEF0D8A2AFECE0C004B1901 /* QuizResponse.swift in Sources */,
+				1AC8E1EB2AFEE01A00DA1E90 /* FinishedView.swift in Sources */,
+				1AEF0D882AFECE08004B1901 /* Result.swift in Sources */,
+				1AEF0D7D2AFEC4F3004B1901 /* QuestionsView.swift in Sources */,
 				1AEF0D6D2AFEBC38004B1901 /* ViewController.swift in Sources */,
 				1AEF0D692AFEBC38004B1901 /* AppDelegate.swift in Sources */,
 				1AEF0D6B2AFEBC38004B1901 /* SceneDelegate.swift in Sources */,
@@ -363,6 +395,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1AEF0D7E2AFEC627004B1901 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.3.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1AEF0D7F2AFEC627004B1901 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1AEF0D7E2AFEC627004B1901 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1AEF0D5D2AFEBC37004B1901 /* Project object */;
 }
